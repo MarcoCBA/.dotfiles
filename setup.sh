@@ -150,6 +150,14 @@ echo "Press cmd + i in iTerm2 and select your color preset"
 echo "Installing fzf shortcuts"
 echo "$(brew --prefix)/opt/fzf/install" >> ~/.zshrc
 
+echo "Downloading spectacle..."
+version="Spectacle+1.2"
+cd ~/Downloads && wget https://s3.amazonaws.com/spectacle/downloads/$version.zip
+unzip $version.zip
+mv Spectacle.app /Applications
+rm -rf $version.zip
+echo "Remember to configure spectacle to launch at startup"
+
 killall Finder
 
 echo "Done!"
