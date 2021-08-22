@@ -1,4 +1,4 @@
-# TODO: Detectar iterm2 y avisar que no vas a correr el script si no esta instalado.
+# RUN THIS SCRIPT IN ITERM2 ONLY
 
 echo "Creating an SSH key for you..."
 ssh-keygen -t rsa
@@ -73,7 +73,6 @@ source ~/.zshrc
 # GUI Apps
 cask_apps=(
   spotify
-  bitwarden
   visual-studio-code
   docker
 )
@@ -139,6 +138,15 @@ echo 'alias pip-upgrade="pip install --upgrade pip"' >> ~/.zshrc
 pip-upgrade
 
 killall Finder
+
+# Install iterm2 themes.
+cd ~
+git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
+cd iTerm2-Color-Schemes
+tools/import-scheme.sh schemes/*
+cd ..
+rm -rf iTerm2-Color-Schemes
+echo "Press cmd + i in iTerm2 and select your color preset"
 
 echo "Done!"
 
