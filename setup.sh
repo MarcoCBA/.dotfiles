@@ -138,8 +138,6 @@ echo 'alias pip-upgrade="pip install --upgrade pip"' >> ~/.zshrc
 
 pip-upgrade
 
-killall Finder
-
 # Install iterm2 themes.
 cd ~
 git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
@@ -150,7 +148,9 @@ rm -rf iTerm2-Color-Schemes
 echo "Press cmd + i in iTerm2 and select your color preset"
 
 echo "Installing fzf shortcuts"
-$(brew --prefix)/opt/fzf/install
+echo "$(brew --prefix)/opt/fzf/install" >> ~/.zshrc
+
+killall Finder
 
 echo "Done!"
 
