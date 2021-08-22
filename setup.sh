@@ -145,10 +145,10 @@ cd iTerm2-Color-Schemes
 tools/import-scheme.sh schemes/*
 cd ..
 rm -rf iTerm2-Color-Schemes
-echo "Press cmd + i in iTerm2 and select your color preset"
+echo "Remember to set your color preset from settings"
 
 echo "Installing fzf shortcuts"
-echo "$(brew --prefix)/opt/fzf/install" >> ~/.zshrc
+$(brew --prefix)/opt/fzf/install
 
 echo "Downloading spectacle..."
 version="Spectacle+1.2"
