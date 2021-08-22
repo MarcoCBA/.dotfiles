@@ -30,7 +30,7 @@ echo "Installing homebrew..."
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Next steps for brew installation
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/marco/.zshrc
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zshrc
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Update homebrew recipes
@@ -48,6 +48,7 @@ brew_apps=(
   zsh-syntax-highlighting
   pyenv
   pyenv-virtualenv
+  fzf
   neovim
 )
 
@@ -147,6 +148,9 @@ tools/import-scheme.sh schemes/*
 cd ..
 rm -rf iTerm2-Color-Schemes
 echo "Press cmd + i in iTerm2 and select your color preset"
+
+echo "Installing fzf shortcuts"
+$(brew --prefix)/opt/fzf/install
 
 echo "Done!"
 
