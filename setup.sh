@@ -1,3 +1,4 @@
+ #!/bin/bash
 # RUN THIS SCRIPT IN ITERM2 ONLY
 
 echo "Creating an SSH key for you..."
@@ -50,6 +51,7 @@ brew_apps=(
   pyenv-virtualenv
   fzf
   neovim
+  dockutil
 )
 
 echo "Installing brew apps..."
@@ -76,6 +78,8 @@ cask_apps=(
   spotify
   visual-studio-code
   docker
+  authy
+  postman
 )
 
 # Install apps to /Applications
@@ -114,6 +118,10 @@ defaults write com.apple.dock autohide-delay -float 0
 
 # Preventing Time Machine from prompting to use new hard drives as backup volume
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
+
+#"Disable smart quotes and smart dashes as they are annoying when typing code"
+defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
 # Install Fisa NVIM config
 mkdir ~/.config/nvim && touch $_/init.vim
@@ -156,6 +164,9 @@ mv Spectacle.app /Applications
 rm -rf $version.zip
 echo "Remember to configure spectacle to launch at startup"
 
+
+# TODO: ordenar el dock e instalar apps faltantes usando dockutils
+killall Dock
 killall Finder
 
 echo "Done!"
