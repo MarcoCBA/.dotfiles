@@ -1,4 +1,4 @@
- #!/bin/bash
+#!/bin/bash
 # RUN THIS SCRIPT IN ITERM2 ONLY
 
 echo "Creating an SSH key for you..."
