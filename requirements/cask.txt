@@ -1,0 +1,6 @@
+spotify
+visual-studio-code
+docker
+authy
+postman
+spectacle

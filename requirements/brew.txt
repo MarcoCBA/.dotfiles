@@ -1,0 +1,13 @@
+git
+git-flow
+tree
+wget
+trash
+speedtest-cli
+thefuck
+zsh-syntax-highlighting
+pyenv
+pyenv-virtualenv
+fzf
+neovim
+dockutil
