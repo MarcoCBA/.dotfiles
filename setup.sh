@@ -108,13 +108,9 @@ defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 # Use column view in all Finder windows by default
 defaults write com.apple.finder FXPreferredViewStyle Clmv
 
-# Setting the icon size of Dock items to 36 pixels for optimal size/screen-realestate
-defaults write com.apple.dock tilesize -int 36
-
 # Setting Dock to auto-hide and removing the auto-hiding delay
 defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock autohide-delay -float 0
-defaults write com.apple.dock autohide-time-modifier -float 0
 
 # Preventing Time Machine from prompting to use new hard drives as backup volume
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
@@ -123,6 +119,8 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 mkdir ~/.config/nvim && touch $_/init.vim
 curl https://raw.githubusercontent.com/fisadev/fisa-vim-config/master/config.vim > ~/.config/nvim/init.vim
 echo 'alias vim="nvim"' >> ~/.zshrc
+# Make vim copy into MacOS clipboard
+echo "set clipboard=unnamed" >> ~/.config/nvim/init.vim
 source ~/.zshrc
 
 # Install python global environment
