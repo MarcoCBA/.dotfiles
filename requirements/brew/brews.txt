@@ -11,3 +11,5 @@ pyenv-virtualenv
 fzf
 neovim
 dockutil
+fasd
+zsh-autosuggestions
