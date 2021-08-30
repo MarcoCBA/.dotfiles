@@ -1,7 +1,7 @@
 # ZSH
 
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then # Power level instant prompt
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"          # This should be kept at top
 fi
 export ZSH="~/.oh-my-zsh" # Path to your oh-my-zsh installation
 ZSH_THEME="powerlevel10k/powerlevel10k" # Set zsh theme
