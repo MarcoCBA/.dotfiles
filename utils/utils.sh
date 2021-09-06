@@ -20,7 +20,3 @@ function safe_ln() {
     ln -s $1 $2
 }
 
-INSTALLERS_DIR=$HOME/.dotfiles/installers
-RCS_DIR=$HOME/.dotfiles/rc
-CONFIGS_DIR=$HOME/.dotfiles/configs
-
