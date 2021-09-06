@@ -7,11 +7,8 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew update
 
 # Install brews
-while read p; do
-    brew install "$p"
-done < ~/.dotfiles/requirements/brew/brews.txt
+xargs brew install < ~/.dotfiles/requirements/brew/brews.txt
 
 # Install casks
-while read p; do
-    brew install --cask --appdir="/Applications" "$p"
-done < ~/.dotfiles/requirements/brew/casks.txt
+xargs brew install --cask --appdir="/Applications" < ~/.dotfiles/requirements/brew/casks.txt
+
