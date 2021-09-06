@@ -1,3 +1,7 @@
+# PATHS
+
+BREW_PREFIX=$(brew --prefix) # Brew installation path
+
 # ZSH
 
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then # Power level instant prompt
@@ -10,13 +14,13 @@ source ~/.p10krc # Run Powerlevel10k
 
 # HOMEBREW
 
-eval "$(/opt/homebrew/bin/brew shellenv)" # Setup homebrew
+eval "$($BREW_PREFIX/bin/brew shellenv)" # Setup homebrew
 
 # BREW FORMULAE
 
 eval $(thefuck --alias) # Init Thefuck
 
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh # Syntax highlighting
+source $BREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh # Syntax highlighting
 
 if which pyenv-virtualenv-init > /dev/null; then # Auto activate pynev-virtualenvs
     eval "$(pyenv virtualenv-init -)"; 
@@ -26,7 +30,7 @@ eval "$(pyenv init --path)" # Pyenv init
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh # Setup fzf
 
-source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh # Load auto suggestions
+source $BREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh # Load auto suggestions
 
 # ALIASES
 
