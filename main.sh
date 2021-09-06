@@ -9,7 +9,7 @@ CONFIGS_DIR=$HOME/.dotfiles/configs
 
 # Run installers
 log_info "Installing xcode..."
-$INSTALLERS_DIR/xcode.sh > /dev/null
+$INSTALLERS_DIR/xcode.sh
 log_success "Success"
 
 log_info "Installing Oh My ZSH..."
