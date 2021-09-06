@@ -13,15 +13,15 @@ $INSTALLERS_DIR/xcode.sh > /dev/null
 log_success "Success"
 
 log_info "Installing Oh My ZSH..."
-$INSTALLERS_DIR/ohmyzsh.sh > /dev/null
+$INSTALLERS_DIR/ohmyzsh.sh
 log_success "Success"
 
 log_info "Installing Powerlevel10k..."
-$INSTALLERS_DIR/p10k.sh > /dev/null
+$INSTALLERS_DIR/p10k.sh
 log_success "Success"
 
 log_info "Installing homebrew, its configs and requierements..."
-$INSTALLERS_DIR/brew.sh > /dev/null
+$INSTALLERS_DIR/brew.sh
 log_success "Success"
 
 # Install rc dotfiles
