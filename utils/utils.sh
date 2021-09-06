@@ -16,7 +16,7 @@ function log_success() { echo -e ">>> ${green}$@${black} <<<"; }
 
 # Function to safely link files
 function safe_ln() {
-    mv $2 $2.bak.$(date +%s)
+    [ -f $2 ] && mv $2 $2.bak.$(date +%s)
     ln -s $1 $2
 }
 
