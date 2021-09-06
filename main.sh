@@ -25,6 +25,6 @@ $INSTALLERS_DIR/brew.sh
 log_success "Success"
 
 # Install rc dotfiles
-safe_ln ~/.dotfiles/git-template/gitconfig.global ~/.gitconfig
+safe_ln ~/.dotfiles/runcom/.gitrc ~/.gitconfig
 log_success "GIT: Setup success"
 
