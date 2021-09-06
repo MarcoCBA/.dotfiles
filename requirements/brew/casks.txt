@@ -4,5 +4,4 @@ docker
 authy
 postman
 spectacle
-jira
 
