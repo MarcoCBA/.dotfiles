@@ -9,7 +9,7 @@ brew update
 # Install brews
 while read p; do
     brew install "$p"
-done < ~/.dotfiles/requirements/brew.txt
+done < ~/.dotfiles/requirements/brew/brew.txt
 
 # Install casks
 while read p; do
