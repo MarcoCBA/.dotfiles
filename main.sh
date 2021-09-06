@@ -6,6 +6,7 @@ source ~/.dotfiles/utils/utils.sh
 INSTALLERS_DIR=$HOME/.dotfiles/installers
 RCS_DIR=$HOME/.dotfiles/rc
 CONFIGS_DIR=$HOME/.dotfiles/configs
+ASSETS_FOLDER=$HOME/.dotfiles/assets
 
 # Run installers
 log_info "Installing xcode..."
@@ -29,10 +30,11 @@ safe_ln ~/.dotfiles/runcom/.gitrc ~/.gitconfig
 log_success "GIT: Setup success"
 
 safe_ln ~/.dotfiles/runcom/.zshrc ~/.zshrc
-log_success "GIT: Setup success"
+log_success "ZSH: Setup success"
 
 safe_ln ~/.dotfiles/runcom/.p10krc ~/.p10krc
-log_success "GIT: Setup success"
+log_success "P10K: Setup success"
+log_info "Remember to install the recommended font for Powerlevel10k at $ASSETS_FOLDER in your iTerm2 default profile"
 
 # TODO: mover esto a la carpeta de vim
 # safe_ln ~/.dotfiles/runcom/.vimrc ~/.zshrc
