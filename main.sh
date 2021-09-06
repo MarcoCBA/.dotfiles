@@ -3,10 +3,6 @@
 # Load utilities
 source ~/.dotfiles/utils/utils.sh
 
-INSTALLERS_DIR=$HOME/.dotfiles/installers
-RCS_DIR=$HOME/.dotfiles/rc
-CONFIGS_DIR=$HOME/.dotfiles/configs
-
 # Run installers
 log_info "Installing xcode..."
 $INSTALLERS_DIR/xcode.sh
@@ -15,6 +11,9 @@ log_success "Success"
 log_info "Installing Oh My ZSH..."
 $INSTALLERS_DIR/ohmyzsh.sh
 log_success "Success"
+
+# Reload utilities since shell was change and restarted
+source ~/.dotfiles/utils/utils.sh
 
 log_info "Installing Powerlevel10k..."
 $INSTALLERS_DIR/p10k.sh
