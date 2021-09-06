@@ -34,7 +34,6 @@ log_success "ZSH: Setup success"
 
 safe_ln ~/.dotfiles/runcom/.p10krc ~/.p10krc
 log_success "P10K: Setup success"
-log_info "Remember to install the recommended font for Powerlevel10k at $ASSETS_FOLDER in your iTerm2 default profile"
 
 # TODO: mover esto a la carpeta de vim
 # safe_ln ~/.dotfiles/runcom/.vimrc ~/.zshrc
