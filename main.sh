@@ -28,3 +28,15 @@ log_success "Success"
 safe_ln ~/.dotfiles/runcom/.gitrc ~/.gitconfig
 log_success "GIT: Setup success"
 
+safe_ln ~/.dotfiles/runcom/.zshrc ~/.zshrc
+log_success "GIT: Setup success"
+
+safe_ln ~/.dotfiles/runcom/.p10krc ~/.p10krc
+log_success "GIT: Setup success"
+
+# TODO: mover esto a la carpeta de vim
+# safe_ln ~/.dotfiles/runcom/.vimrc ~/.zshrc
+# log_success "GIT: Setup success"
+
+
+
