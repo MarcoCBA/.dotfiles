@@ -11,8 +11,8 @@ cyan='\033[0;36m'
 white='\033[0;37m'
 
 # Log utils
-function log_info() { echo -e ">>> ${cyan}$@${white} <<<"; }
-function log_success() { echo -e ">>> ${green}$@${white} <<<"; }
+function log_info() { echo -e ">>> ${cyan}$@ <<<"; }
+function log_success() { echo -e ">>> ${green}$@ <<<"; }
 
 # Function to safely link files
 function safe_ln() {
