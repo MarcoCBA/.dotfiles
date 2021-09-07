@@ -1,4 +1,5 @@
 # ZSH
+
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then # Power level instant prompt
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"          # This should be kept at top
 fi
@@ -11,11 +12,11 @@ source $ZSH/oh-my-zsh.sh # Run oh my zsh script
 
 source $HOME/.p10krc # Run Powerlevel10k theme after oh my zsh
 
-# PATHS
+# HOMEBREW
+
+export PATH=/opt/homebrew/bin:$PATH # Homebrew is installed in /opt/homebrew in M1 Chip Macbooks
 
 BREW_PREFIX=$(brew --prefix) # Brew installation path
-
-# HOMEBREW
 
 eval "$($BREW_PREFIX/bin/brew shellenv)" # Setup homebrew
 
