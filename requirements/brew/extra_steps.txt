@@ -1,3 +1,3 @@
-Remember to setting Spectacle to start at login
+Remember setting Spectacle to start at login
 Remember to install Bitwarden from the Appstore, since its brew formula wont work as an extension for web browsers.
 
