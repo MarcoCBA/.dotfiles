@@ -37,7 +37,7 @@ log_success "P10K: Setup success"
 
 NVIM_CONF_PATH=$HOME/.config/nvim
 mkdir -p $NVIM_CONF_PATH
-safe_ln $RCS_DIR/.vimrc $NVIM_CONF_PATH/init.vim
+safe_ln $RCS_DIR/.nvimrc $NVIM_CONF_PATH/init.vim
 log_success "NVIM: Setup success"
 
 
