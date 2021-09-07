@@ -1,8 +1,8 @@
 Safari.app
 iTerm.app
-Visual\ Studio\ Code.app
+"Visual\\ Studio\\ Code.app"
 Postman.app
 Docker.app
-Authy\ Desktop.app
+Authy\\ Desktop.app
 Bitwarden.app
 Spotify.app
