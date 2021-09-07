@@ -13,7 +13,7 @@ REQUIREMENTS=$HOME/.dotfiles/requirements/dock/apps.txt
 APPLICATION_PATH=/Applications
 while read p; do
     dockutil --add $APPLICATION_PATH/$p
-done < REQUIREMENTS
+done < $REQUIREMENTS
 
 killall Dock
 
