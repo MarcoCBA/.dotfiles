@@ -4,7 +4,7 @@
 source ~/.dotfiles/utils/utils.sh
 
 INSTALLERS_DIR=$HOME/.dotfiles/installers
-RCS_DIR=$HOME/.dotfiles/rc
+RCS_DIR=$HOME/.dotfiles/runcom
 CONFIGS_DIR=$HOME/.dotfiles/configs
 ASSETS_FOLDER=$HOME/.dotfiles/assets
 
@@ -26,17 +26,18 @@ $INSTALLERS_DIR/brew.sh
 log_success "Success"
 
 # Install rc dotfiles
-safe_ln ~/.dotfiles/runcom/.gitrc ~/.gitconfig
+safe_ln $RCS_DIR/.gitrc ~/.gitconfig
 log_success "GIT: Setup success"
 
-safe_ln ~/.dotfiles/runcom/.zshrc ~/.zshrc
+safe_ln $RCS_DIR/.zshrc ~/.zshrc
 log_success "ZSH: Setup success"
 
-safe_ln ~/.dotfiles/runcom/.p10krc ~/.p10krc
+safe_ln $RCS_DIR/.p10krc ~/.p10krc
 log_success "P10K: Setup success"
 
-mkdir -p ~/.config/nvim
-safe_ln ~/.dotfiles/runcom/.vimrc ~/.config/nvim/init.vim
+NVIM_CONF_PATH=$HOME/.config/nvim
+mkdir -p $NVIM_CONF_PATH
+safe_ln $RCS_DIR/.vimrc $NVIM_CONF_PATH/init.vim
 log_success "NVIM: Setup success"
 
 
