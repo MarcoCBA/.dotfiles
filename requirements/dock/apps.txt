@@ -1,0 +1,10 @@
+Safari.app
+iTerm.app
+Visual Studio Code.app
+Postman.app
+Docker.app
+Authy Desktop.app
+Bitwarden.app
+Spotify.app
+League of Legends.app
+Diablo III
