@@ -17,8 +17,5 @@ defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 # Use column view in all Finder windows by default
 defaults write com.apple.finder FXPreferredViewStyle Clmv
 
-# Preventing Time Machine from prompting to use new hard drives as backup volume
-defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
-
-# Restart affected apps
 killall Finder
+
