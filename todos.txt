@@ -1,0 +1,18 @@
+sacar el show recents del dock
+tema github dark en iterm <-- manual avisar
+desabilitar cursor jump on search para vscode <-- manual avisar
+tema github dark en vscode
+# TODO: ordenar el dock e instalar apps faltantes usando dockutils
+ver q mas falta de old
+repasar que todo funcione
+[19:53, 06/09/2021] .: Poner la selección del teclado en la barra de menús
+[19:53, 06/09/2021] .: Agregar el teclado americano también además del español
+[19:54, 06/09/2021] .: Fijar versionesde los brews
+[19:55, 06/09/2021] .: Invertir el Scroll para poder usar el mouse
+[20:07, 06/09/2021] .: Cambiar clave de Cablevisión algo bueno
+fijar versiones de requerimientos en brew y cakss
+
+mouse en vim
+modularizar todas las manual actions
+modularizar manuales pero correrlos a medida que el orden del script lo exija, por ejemplo en cada etapa correr manuales si hace falta.
+adblock a apps manuales creo
