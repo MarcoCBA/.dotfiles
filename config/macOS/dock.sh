@@ -12,6 +12,7 @@ dockutil --remove all
 REQUIREMENTS=$HOME/.dotfiles/requirements/dock/apps.txt
 APPLICATION_PATH=/Applications
 while read p; do
+    echo "$p"
     dockutil --add $APPLICATION_PATH/$p
 done < $REQUIREMENTS
 
