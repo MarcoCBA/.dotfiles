@@ -1,5 +1,5 @@
 # .dotfiles
 Before changing anything try finding usages:
 ```bash
-grep -rn "tool" *
+grep -irn "tool" *
 ```
