@@ -38,6 +38,7 @@ source $BREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh # Load aut
 # ALIASES
 
 alias vim="nvim" # Use neovim by default
+alias vi="nvim" # Use neovim by default
 
 alias pip-upgrade="pip install --upgrade pip" # Alias to quickly update pip
 
