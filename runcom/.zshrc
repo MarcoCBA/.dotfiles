@@ -1,16 +1,19 @@
-# PATHS
-
-BREW_PREFIX=$(brew --prefix) # Brew installation path
-
 # ZSH
-
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then # Power level instant prompt
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"          # This should be kept at top
 fi
+
 export ZSH="$HOME/.oh-my-zsh" # Path to your oh-my-zsh installation
-ZSH_THEME="powerlevel10k/powerlevel10k" # Set zsh theme
-source $ZSH/oh-my-zsh.sh
-source $HOME/.p10krc # Run Powerlevel10k
+
+ZSH_THEME="powerlevel10k/powerlevel10k" # Set zsh theme before sourcing oh my zsh
+
+source $ZSH/oh-my-zsh.sh # Run oh my zsh script
+
+source $HOME/.p10krc # Run Powerlevel10k theme after oh my zsh
+
+# PATHS
+
+BREW_PREFIX=$(brew --prefix) # Brew installation path
 
 # HOMEBREW
 
