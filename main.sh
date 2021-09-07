@@ -35,9 +35,8 @@ log_success "ZSH: Setup success"
 safe_ln ~/.dotfiles/runcom/.p10krc ~/.p10krc
 log_success "P10K: Setup success"
 
-# TODO: mover esto a la carpeta de vim
-# safe_ln ~/.dotfiles/runcom/.vimrc ~/.zshrc
-# log_success "GIT: Setup success"
+safe_ln ~/.dotfiles/runcom/.vimrc ~/.config/nvim/init.vim
+log_success "NVIM: Setup success"
 
 
 
