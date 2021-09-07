@@ -1,8 +1,5 @@
 #!/bin/sh
 
-# Don’t automatically rearrange Spaces based on most recent use
-com.apple.dock mru-spaces -bool false
-
 # Allow text selection in Quick Look
 defaults write com.apple.finder QLEnableTextSelection -bool TRUE
 
