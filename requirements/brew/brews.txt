@@ -1,5 +1,6 @@
 git
 git-flow
+cython
 tree
 wget
 trash
