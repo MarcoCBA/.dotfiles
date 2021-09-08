@@ -12,4 +12,5 @@ modularizar todas las manual actions
 modularizar manuales pero correrlos a medida que el orden del script lo exija, por ejemplo en cada etapa correr manuales si hace falta.
 adblock safari <-- manual avisar
 deshabilitar autofill de todo en safari <-- manual avisar
-añadir teclado yanki, mostar el selector en el menu bar <-- manual avisar
+mostar el selector en el menu bar <-- manual avisar
+sacar autocorrector de texto mac <-- manual avisar 
