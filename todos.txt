@@ -14,3 +14,4 @@ adblock safari <-- manual avisar
 deshabilitar autofill de todo en safari <-- manual avisar
 mostar el selector en el menu bar <-- manual avisar
 sacar autocorrector de texto mac <-- manual avisar 
+correr /usr/local/opt/fzf/install despues de instalar fzf, copiar el archivo .fzf.zsh y guardarlo, dejar el comando en el .zshrc, sino no funciona
