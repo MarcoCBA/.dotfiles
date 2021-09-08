@@ -11,3 +11,4 @@ mouse en vim
 modularizar todas las manual actions
 modularizar manuales pero correrlos a medida que el orden del script lo exija, por ejemplo en cada etapa correr manuales si hace falta.
 adblock safari <-- manual avisar
+deshabilitar autofill de todo en safari <-- manual avisar
