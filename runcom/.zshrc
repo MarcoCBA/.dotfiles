@@ -26,11 +26,12 @@ eval $(thefuck --alias) # Init Thefuck
 
 source $BREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh # Syntax highlighting
 
-if which pyenv-virtualenv-init > /dev/null; then # Auto activate pynev-virtualenvs
-    eval "$(pyenv virtualenv-init -)"; 
-fi
 
-eval "$(pyenv init --path)" # Pyenv init
+
+eval "$(pyenv init --path)" # Pyenv PATHS initialization
+eval "$(pyenv init -)" # Make pyenv work as a shell command (needed for pyenv virtualenv)
+eval "$(pyenv virtualenv-init -)"; # Pyenv virtualenv initialization
+
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh # Setup fzf
 
