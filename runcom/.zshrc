@@ -29,6 +29,7 @@ source $BREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh # 
 eval "$(pyenv init --path)" # Pyenv PATHS initialization
 eval "$(pyenv init -)" # Make pyenv work as a shell command (needed for pyenv virtualenv)
 eval "$(pyenv virtualenv-init -)"; # Pyenv virtualenv initialization
+export PYENV_VIRTUALENV_DISABLE_PROMPT=1 # Disable prompt and deprecation warning
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh # Setup fzf
 
