@@ -7,10 +7,9 @@
 [credential]
     helper = osxkeychain
 [merge]
-    tool = nvim 
-    conflictstyle = diff3
-[mergetool "nvim"]
-    cmd = nvim -f -c \"Gvdiffsplit!\" \"$MERGED\"
+	tool = vscode
+[mergetool "vscode"]
+	cmd = code --wait $MERGED
 [diff]
     tool = nvim
 [difftool]
