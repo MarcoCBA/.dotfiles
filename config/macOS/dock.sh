@@ -1,11 +1,14 @@
 #!/bin/sh
 
-# Setting Dock to auto-hide and removing the auto-hiding delay
-defaults write com.apple.dock autohide -bool true
-defaults write com.apple.dock autohide-delay -float 0
+# Change window animation
+defaults write com.apple.dock "mineffect" -string "scale"
 
-# Don’t automatically rearrange Spaces based on most recent use
-defaults write com.apple.dock mru-spaces -bool false
+# Setting Dock to auto-hide and removing the auto-hiding delay
+defaults write com.apple.dock "autohide" -bool "true"
+defaults write com.apple.dock "autohide-delay" -float 0
+
+# Disable show recents
+defaults write com.apple.dock "show-recents" -bool "false"
 
 # Reorder dock
 dockutil --remove all
