@@ -107,3 +107,5 @@ if [[ $args == *\ TIME-MACHINE\ * ]] || [[ $args == *\ CONFIGURE\ * ]] || [[ $# 
     log_success "TIME MACHINE: Configured"
 fi
 
+log_success "SYSTEM REBOOT IS RECOMMENDED"
+
