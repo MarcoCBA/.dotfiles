@@ -18,3 +18,4 @@ correr /usr/local/opt/fzf/install despues de instalar fzf, copiar el archivo .fz
 sacar el recents del dock manual avisar
 cambiar nvim por vim en los reqs de todos lados
 figutive vim
+Ver que no haya configs repetidas en macos
