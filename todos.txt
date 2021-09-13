@@ -1,21 +1,12 @@
-tema github dark en iterm <-- manual avisar
-desabilitar cursor jump on search para vscode <-- manual avisar
-tema github dark en vscode <-- manual avisar
 arreglar el configure del dock que no funca para apps con espacios en nombres
 ver q mas falta de old
-Poner la selección del teclado en la barra de menús <-- manual avisar
 Agregar el teclado americano también además del español <-- manual avisar
 Fijar versiones de los brews
-matchear tema de vim con el de iterm
-mouse en vim
-modularizar todas las manual actions
-modularizar manuales pero correrlos a medida que el orden del script lo exija, por ejemplo en cada etapa correr manuales si hace falta.
-adblock safari <-- manual avisar
-deshabilitar autofill de todo en safari <-- manual avisar
-mostar el selector en el menu bar <-- manual avisar
-sacar autocorrector de texto mac <-- manual avisar 
 correr /usr/local/opt/fzf/install despues de instalar fzf, copiar el archivo .fzf.zsh y guardarlo, dejar el comando en el .zshrc, sino no funciona
-sacar el recents del dock manual avisar
-cambiar nvim por vim en los reqs de todos lados
 figutive vim
 Ver que no haya configs repetidas en macos
+Cambiar comments y code style a lo que hace rusito
+ripgrep
+añadir fuentes y dar creditos
+correr las cosas manuales en el main
+extra steps a manual
