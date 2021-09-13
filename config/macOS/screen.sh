@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Require password immediately after sleep or screen saver begins
 defaults write com.apple.screensaver askForPassword -int 1

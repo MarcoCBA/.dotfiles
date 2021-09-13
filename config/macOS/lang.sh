@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Change system language to english
 # Set language and text formats

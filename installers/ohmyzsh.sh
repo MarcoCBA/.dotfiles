@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Do not run zsh after installation
 RUNZSH=no

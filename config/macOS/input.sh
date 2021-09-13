@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Disable automatic capitalization as it is annoying when typing code
 defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false

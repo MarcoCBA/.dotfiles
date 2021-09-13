@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Disable boot sound effects
 sudo nvram SystemAudioVolume=" "

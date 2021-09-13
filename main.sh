@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # Dotfiles Install Script
 # {{{ Parameters:
 # - none: install everything

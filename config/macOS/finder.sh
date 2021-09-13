@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Allow quitting Finder
 defaults write com.apple.finder "QuitMenuItem" -bool "true"

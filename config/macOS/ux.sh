@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Always show scrollbars
 defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
