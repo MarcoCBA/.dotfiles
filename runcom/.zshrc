@@ -46,3 +46,5 @@ alias src='source ~/.zshrc' # Quickly source .zshrc
 alias jn='jupyter notebook' # Jupyter notebooks shortcuts
 
 alias jl='jupyter lab'
+
+alias fregex='find . -type f -name '
