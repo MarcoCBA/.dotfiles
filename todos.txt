@@ -10,3 +10,4 @@ ripgrep
 añadir fuentes y dar creditos
 correr las cosas manuales en el main
 extra steps a manual
+en algun momento tenes que activar zsh como shell por defecto
