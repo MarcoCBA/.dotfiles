@@ -11,3 +11,4 @@ añadir fuentes y dar creditos
 correr las cosas manuales en el main
 extra steps a manual
 Agregar al main las instalaciones de las configs
+alacritty
