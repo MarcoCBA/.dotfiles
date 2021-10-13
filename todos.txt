@@ -10,11 +10,9 @@ ripgrep
 añadir fuentes y dar creditos
 correr las cosas manuales en el main
 extra steps a manual
-<<<<<<< HEAD
 en algun momento tenes que activar zsh como shell por defecto?? maybe not
-=======
 Agregar al main las instalaciones de las configs
->>>>>>> e6ec3b9e89a0ebd5d7f4d63aa76bb9262ccd4260
 cambiar safari por chrome, borrar extensiones de safari del script y crear cuenta de chrome
 arreglar el difftool y mergetool
 
+alacritty
