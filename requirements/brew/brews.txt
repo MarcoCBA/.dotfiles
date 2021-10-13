@@ -14,3 +14,4 @@ neovim
 dockutil
 fasd
 zsh-autosuggestions
+jq
