@@ -1,8 +1,8 @@
-Safari.app
+Google\ Chrome
 iTerm.app
-Visual\\ Studio\\ Code.app
+Visual\ Studio\ Code.app
 Postman.app
 Docker.app
-Authy\\ Desktop.app
 Bitwarden.app
+Authy\ Desktop
 Spotify.app

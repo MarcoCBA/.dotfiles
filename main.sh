@@ -108,4 +108,7 @@ if [[ $args == *\ TIME-MACHINE\ * ]] || [[ $args == *\ CONFIGURE\ * ]] || [[ $# 
 fi
 
 log_success "SYSTEM REBOOT IS RECOMMENDED"
+log_info "Remember to install the recommended font for Powerlevel10k at $ASSETS_FOLDER in your iTerm2 default profile"
+log_info "Remember to run /usr/local/opt/fzf/install to enable fzf"
+log_info "Remember to make spectacle run at startup"
 
