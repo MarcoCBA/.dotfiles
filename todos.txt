@@ -18,3 +18,5 @@ arreglar el difftool y mergetool
 alacritty
 ❯ poetry env use /Users/mmartinelli/.pyenv/shims/python pegar esto en el zshrc
 Al final del script para instalar ohmyzsh se corre la shell y se mueve a .oh_my_zsh. Cambiar esto para que siga la ejecucion
+
+Agregar xargs al configure del dock en vez del read
