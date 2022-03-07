@@ -4,5 +4,7 @@ docker
 authy
 postman
 spectacle
-brew install alt-tab
+alt-tab
+iterm2
+google-chrome
 
