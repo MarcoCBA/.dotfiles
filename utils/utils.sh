@@ -19,6 +19,7 @@ function log_manual() {
 
 # Log utils
 function log_info() { echo -e "${cyan}>>> $@ <<<${NC}"; }
+
 function log_success() { echo -e "${green}>>> $@ <<<${NC}"; }
 
 # Function to safely link files
