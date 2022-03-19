@@ -6,9 +6,21 @@
 # Update recipes
 brew update
 
+brew_install() {
+    if ! brew list $1 &>/dev/null; then
+        brew install $1
+    fi
+}
+
+cask_install() {
+    if ! brew list $1 &>/dev/null; then
+        brew install --cask --appdir="/Applications" $1
+    fi
+}
+
 # Install brews
-xargs brew install < ~/.dotfiles/requirements/brew/brews.txt
+xargs brew_install < ~/.dotfiles/requirements/brew/brews.txt
 
 # Install casks
-xargs brew install --cask --appdir="/Applications" < ~/.dotfiles/requirements/brew/casks.txt
+xargs cask_install < ~/.dotfiles/requirements/brew/casks.txt
 
