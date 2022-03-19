@@ -1,17 +1,7 @@
 arreglar el configure del dock que no funca para apps con espacios en nombres
-ver q mas falta de old
-Agregar el teclado americano también además del español <-- manual avisar
 Fijar versiones de los brews
-correr /usr/local/opt/fzf/install despues de instalar fzf, copiar el archivo .fzf.zsh y guardarlo, dejar el comando en el .zshrc, sino no funciona
 figutive vim
-Ver que no haya configs repetidas en macos
 Cambiar comments y code style a lo que hace rusito
-ripgrep
-añadir fuentes y dar creditos
-correr las cosas manuales en el main
-extra steps a manual
-en algun momento tenes que activar zsh como shell por defecto?? maybe not
-Agregar al main las instalaciones de las configs
 cambiar safari por chrome, borrar extensiones de safari del script y crear cuenta de chrome
 arreglar el difftool y mergetool
 
