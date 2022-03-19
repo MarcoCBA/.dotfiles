@@ -1,1 +1,0 @@
-"Set theme as default in iterm2 settings"
