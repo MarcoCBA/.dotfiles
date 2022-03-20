@@ -7,4 +7,3 @@ spectacle
 alt-tab
 iterm2
 google-chrome
-

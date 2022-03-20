@@ -17,4 +17,3 @@ zsh-autosuggestions
 jq
 poetry
 ripgrep
-
