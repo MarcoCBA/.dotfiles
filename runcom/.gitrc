@@ -1,15 +1,15 @@
 [user]
-	email = markitocab@gmail.com
-	name = MarcoCBA
+    email = markitocab@gmail.com
+    name = MarcoCBA
 [core]
-	autocrlf = input
-	editor = nvim
+    autocrlf = input
+    editor = nvim
 [credential]
     helper = osxkeychain
 [merge]
-	tool = vscode
+    tool = vscode
 [mergetool "vscode"]
-	cmd = code --wait $MERGED
+    cmd = code --wait $MERGED
 [diff]
     tool = nvim
 [difftool]
@@ -32,23 +32,23 @@
     untracked = red bold
 [alias]
     aliases = !git config --get-regexp alias
-	co = checkout
-	cob = checkout -b
-	br = branch
-	brd = branch -d
-	brD = branch -D
-	merged = branch --merged
-	st = status
-	aa = add -A .
-	cm = commit -m
-	aacm = !git add -A . && git commit -m
-	aucm = !git add -u && git commit -m
-	amend = commit --amend -m
-	po = push origin
-	pu = !git push origin `git branch --show-current`
-	plo = pull origin
-	unstage = reset --soft HEAD^
-	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+    co = checkout
+    cob = checkout -b
+    br = branch
+    brd = branch -d
+    brD = branch -D
+    merged = branch --merged
+    st = status
+    aa = add -A .
+    cm = commit -m
+    aacm = !git add -A . && git commit -m
+    aucm = !git add -u && git commit -m
+    amend = commit --amend -m
+    po = push origin
+    pu = !git push origin `git branch --show-current`
+    plo = pull origin
+    unstage = reset --soft HEAD^
+    ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
     ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
 [commit]
-	template = ~/.dotfiles/templates/commit.template
+    template = ~/.dotfiles/templates/commit.template
