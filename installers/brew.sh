@@ -19,8 +19,12 @@ cask_install() {
 }
 
 # Install brews
-xargs brew_install < ~/.dotfiles/requirements/brew/brews.txt
+while read p; do
+    brew_install "$p"
+done < ~/.dotfiles/requirements/brew/brews.txt
 
 # Install casks
-xargs cask_install < ~/.dotfiles/requirements/brew/casks.txt
+while read p; do
+    cask_install "$p"
+done < ~/.dotfiles/requirements/brew/casks.txt
 
