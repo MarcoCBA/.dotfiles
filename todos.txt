@@ -1,12 +1,4 @@
 arreglar el configure del dock que no funca para apps con espacios en nombres
-Fijar versiones de los brews
 figutive vim
 Cambiar comments y code style a lo que hace rusito
-cambiar safari por chrome, borrar extensiones de safari del script y crear cuenta de chrome
-arreglar el difftool y mergetool
-
-alacritty
-❯ poetry env use /Users/mmartinelli/.pyenv/shims/python pegar esto en el zshrc
-Al final del script para instalar ohmyzsh se corre la shell y se mueve a .oh_my_zsh. Cambiar esto para que siga la ejecucion
-
 Agregar xargs al configure del dock en vez del read
