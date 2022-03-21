@@ -1,4 +1,4 @@
-arreglar el configure del dock que no funca para apps con espacios en nombres
+arreglar el configure del dock que no funca para apps con espacios en nombres y ver como instalas dockutil ahora porque no es mas por brew (creo que es un cask)
 figutive vim
 Cambiar comments y code style a lo que hace rusito
 Agregar xargs al configure del dock en vez del read
