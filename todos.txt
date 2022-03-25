@@ -3,3 +3,4 @@ figutive vim
 Cambiar comments y code style a lo que hace rusito
 Agregar xargs al configure del dock en vez del read
 Usar la url https://github.com/MarcoCBA/.dotfiles/archive/master.zip para clonar el repo, correrlo como script y despues hacer git init.
+thefuck y poetry usan python como dependencia, anda como el orto. Usar instaladores recomendados fuera de brew
