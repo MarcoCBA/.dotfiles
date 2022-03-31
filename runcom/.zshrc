@@ -33,6 +33,10 @@ export PYENV_VIRTUALENV_DISABLE_PROMPT=1 # Disable prompt and deprecation warnin
 
 source $BREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh # Load auto suggestions
 
+# POETRY
+
+export PATH="$HOME/.local/bin:$PATH"
+
 # ALIASES
 
 alias vim="nvim" # Use neovim by default
