@@ -3,4 +3,6 @@ figutive vim
 Cambiar comments y code style a lo que hace rusito
 Agregar xargs al configure del dock en vez del read
 Usar la url https://github.com/MarcoCBA/.dotfiles/archive/master.zip para clonar el repo, correrlo como script y despues hacer git init.
-thefuck y poetry usan python como dependencia, anda como el orto. Usar instaladores recomendados fuera de brew
+thefuck y poetry usan python como dependencia, anda como el orto. Usar instaladores recomendados fuera de brew. Speedtestcli tambien
+sacar del brew las pelotudeces que no uses, porque te terminan instalando giladas que conflictuan. O sea lo importante instalalo como se recomienda.
+	Me parece que no hace falta toquetear el path manualmente e inicializar la shell cuando instalas homebrew. Fijate por las dudas
