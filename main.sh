@@ -7,6 +7,7 @@
 # - OH-MY-ZSH: install Oh-My-Zsh scripts
 # - P10K: install Powerlevel10k theme for ohmyzsh
 # - BREW: install homebrew, update, and install some requierements
+# - POETRY: install poetry
 # - RCS: install all dotfiles
 # - GITRC: install git dotfiles
 # - ZSHRC: install zsh dotfiles
@@ -57,6 +58,13 @@ if [[ $args == *\ BREW\ * ]] || [[ $args == *\ INSTALL-ALL\ * ]] || [[ $# -eq 0 
     $INSTALLERS_DIR/brew.sh
     log_success "Installation successful"
 fi
+
+if [[ $args == *\ POETRY\ * ]] || [[ $args == *\ INSTALL-ALL\ * ]] || [[ $# -eq 0 ]]; then
+    log_info "Installing poetry, its configs and requierements..."
+    $INSTALLERS_DIR/poetry.sh
+    log_success "Installation successful"
+fi
+
 
 # Install rc dotfiles
 if [[ $args == *\ GITRC\ * ]] || [[ $args == *\ RCS\ * ]] || [[ $# -eq 0 ]]; then
