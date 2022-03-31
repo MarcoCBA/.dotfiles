@@ -1,7 +1,2 @@
-arreglar el configure del dock que no funca para apps con espacios en nombres y ver como instalas dockutil ahora porque no es mas por brew (creo que es un cask)
 figutive vim
-Cambiar comments y code style a lo que hace rusito
-Agregar xargs al configure del dock en vez del read
 Usar la url https://github.com/MarcoCBA/.dotfiles/archive/master.zip para clonar el repo, correrlo como script y despues hacer git init.
-thefuck y poetry usan python como dependencia, anda como el orto. Usar instaladores recomendados fuera de brew. Speedtestcli tambien
-instalar poetry con un installer, no con brew. Sino no funciona bien
