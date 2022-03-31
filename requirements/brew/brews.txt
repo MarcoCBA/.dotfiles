@@ -4,8 +4,6 @@ cython
 tree
 wget
 trash
-speedtest-cli
-thefuck
 zsh-syntax-highlighting
 pyenv
 pyenv-virtualenv
@@ -15,5 +13,4 @@ dockutil
 fasd
 zsh-autosuggestions
 jq
-poetry
 ripgrep
