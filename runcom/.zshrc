@@ -13,15 +13,14 @@ source $HOME/.p10krc # Run Powerlevel10k theme after oh my zsh
 
 # HOMEBREW
 
+# Put brew path for M1 before system paths.
 export PATH=/opt/homebrew/bin:$PATH # Homebrew is installed in /opt/homebrew in M1 Chip Macbooks
 
 BREW_PREFIX=$(brew --prefix) # Brew installation path
 
-eval "$($BREW_PREFIX/bin/brew shellenv)" # Setup homebrew
+eval "$($BREW_PREFIX/bin/brew shellenv)" # Setup homebrew's paths to PATH.
 
 # BREW FORMULAE
-
-eval $(thefuck --alias) # Init Thefuck
 
 source $BREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh # Syntax highlighting
 
