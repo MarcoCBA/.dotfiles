@@ -90,6 +90,21 @@ if [[ $args == *\ NVIMRC\ * ]] || [[ $args == *\ RCS\ * ]] || [[ $# -eq 0 ]]; th
 fi
 
 # Run configuration scripts
+if [[ $args == *\ ACTIVITY-MONITOR\ * ]] || [[ $args == *\ CONFIGURE\ * ]] || [[ $# -eq 0 ]]; then
+    $CONFIGS_DIR/macOS/activitymonitor.sh
+    log_success "ACTIVITY MONITOR: Configured"
+fi
+
+if [[ $args == *\ AUDIO\ * ]] || [[ $args == *\ CONFIGURE\ * ]] || [[ $# -eq 0 ]]; then
+    $CONFIGS_DIR/macOS/audio.sh
+    log_success "AUDIO: Configured"
+fi
+
+if [[ $args == *\ BOOT\ * ]] || [[ $args == *\ CONFIGURE\ * ]] || [[ $# -eq 0 ]]; then
+    $CONFIGS_DIR/macOS/audio.sh
+    log_success "BOOT: Configured"
+fi
+
 if [[ $args == *\ DOCK\ * ]] || [[ $args == *\ CONFIGURE\ * ]] || [[ $# -eq 0 ]]; then
     $CONFIGS_DIR/macOS/dock.sh
     log_success "DOCK: Configured"
@@ -105,15 +120,36 @@ if [[ $args == *\ INPUT\ * ]] || [[ $args == *\ CONFIGURE\ * ]] || [[ $# -eq 0 ]
     log_success "INPUT: Configured"
 fi
 
+if [[ $args == *\ ITERM\ * ]] || [[ $args == *\ CONFIGURE\ * ]] || [[ $# -eq 0 ]]; then
+    $CONFIGS_DIR/macOS/iterm.sh
+    log_success "ITERM: Configured"
+fi
+
 if [[ $args == *\ LANG\ * ]] || [[ $args == *\ CONFIGURE\ * ]] || [[ $# -eq 0 ]]; then
     $CONFIGS_DIR/macOS/lang.sh
     log_success "LANGUAGE: Configured"
+fi
+
+if [[ $args == *\ SCREEN\ * ]] || [[ $args == *\ CONFIGURE\ * ]] || [[ $# -eq 0 ]]; then
+    $CONFIGS_DIR/macOS/screen.sh
+    log_success "SCREEN: Configured"
 fi
 
 if [[ $args == *\ TIME-MACHINE\ * ]] || [[ $args == *\ CONFIGURE\ * ]] || [[ $# -eq 0 ]]; then
     $CONFIGS_DIR/macOS/timemachine.sh
     log_success "TIME MACHINE: Configured"
 fi
+
+if [[ $args == *\ TRACKPAD\ * ]] || [[ $args == *\ CONFIGURE\ * ]] || [[ $# -eq 0 ]]; then
+    $CONFIGS_DIR/macOS/trackpad.sh
+    log_success "TRACKPAD: Configured"
+fi
+
+if [[ $args == *\ UX\ * ]] || [[ $args == *\ CONFIGURE\ * ]] || [[ $# -eq 0 ]]; then
+    $CONFIGS_DIR/macOS/ux.sh
+    log_success "UX: Configured"
+fi
+
 
 log_success "SYSTEM REBOOT IS RECOMMENDED"
 log_info "Remember to install the recommended font for Powerlevel10k at $ASSETS_FOLDER in your iTerm2 default profile"
