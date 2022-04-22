@@ -5,4 +5,8 @@ Postman.app
 Docker.app
 Bitwarden.app
 Authy\ Desktop
-Spotify.app
+Youtube Music.app
+Notes
+Shortcuts
+Numbers
+
